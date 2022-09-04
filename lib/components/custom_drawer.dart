@@ -77,7 +77,7 @@ class CustomDrawer extends StatelessWidget {
           ),
           ListTile(
             onTap: () => launchUrl(Uri.parse(
-                "https://vk.com/doc90300241_639740720?hash=kLcWYvT0ZoPeP9lWI9FaIYrjDRY2Xlk44O5nNiy10yH&dl=AJ7MPRLwVJZ7Uw2alkU3ozVk5DRAA3vC959fQsJg5IL")),
+                "https://docs.google.com/document/d/1JDhZLPjKhjgUViRJ5VmWsVALyTLnNrpB/edit?usp=sharing&ouid=117079879175761001051&rtpof=true&sd=true")),
             leading: FaIcon(
               FontAwesomeIcons.circleInfo,
               color: Constants.accentColor,
@@ -93,21 +93,23 @@ class CustomDrawer extends StatelessWidget {
             ),
             title: Text("Обратиться в студенческий совет"),
             onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const GymSchedule()));
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const StudSovetScreen()));
             },
           ),
-          ListTile(
-            leading: FaIcon(
-              FontAwesomeIcons.brain,
-              color: Constants.accentColor,
-            ),
-            title: Text("Запись к психологу"),
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const GymSchedule()));
-            },
-          ),
+          // ListTile(
+          //   leading: FaIcon(
+          //     FontAwesomeIcons.brain,
+          //     color: Constants.accentColor,
+          //   ),
+          //   title: Text("Запись к психологу"),
+          //   onTap: () {
+          //     Navigator.push(context,
+          //         MaterialPageRoute(builder: (context) => const GymSchedule()));
+          //   },
+          // ),
         ],
       ),
     ));

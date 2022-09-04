@@ -12,13 +12,38 @@ class SportSchedule extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Расписание спортплощадок"),
       ),
-      body: Column(children: [
-        ScheduleItem(
-          subtitle: "Футбол",
-        ),
-        ScheduleItem(subtitle: "Футбол"),
-        ScheduleItem(subtitle: "Футбол"),
-      ]),
+      body: SingleChildScrollView(
+        child: Column(children: [
+          ScheduleItem(
+            title: "ПОНЕДЕЛЬНИК, 5 сентября",
+            subtitle: "Футбол",
+          ),
+          ScheduleItem(
+            title: "ВТОРНИК, 6 сентября",
+            subtitle: "Футбол",
+          ),
+          ScheduleItem(
+            title: "СРЕДА, 7 ентября",
+            subtitle: "Волейбол",
+          ),
+          ScheduleItem(
+            title: "ЧЕТВЕРГ, 8 сентября",
+            subtitle: "Баскетбол",
+          ),
+          ScheduleItem(
+            title: "ПЯТНИЦА, 9 сентября",
+            subtitle: "Футбол",
+          ),
+          ScheduleItem(
+            title: "СУББОТА, 10 сентября",
+            subtitle: "Волейбол",
+          ),
+          ScheduleItem(
+            title: "ВОСКРЕСЕНЬЕ, 11 сентября",
+            subtitle: "Баскетбол",
+          ),
+        ]),
+      ),
     );
   }
 }

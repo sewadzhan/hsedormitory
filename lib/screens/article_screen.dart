@@ -99,48 +99,48 @@ class ArticleScreen extends StatelessWidget {
                             )
                           ],
                           backgroundColor: Constants.accentColor),
-                      CustomTag(
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 6, vertical: 7),
-                          children: [
-                            Icon(
-                              Icons.schedule,
-                              color: Constants.secondTextColor,
-                              size: 25,
-                            ),
-                            SizedBox(width: 5),
-                            Text(
-                              "8 часов",
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .bodyMedium!
-                                  .copyWith(
-                                      color: Constants.secondTextColor,
-                                      fontWeight: FontWeight.w400),
-                            )
-                          ],
-                          backgroundColor: Colors.grey.shade300),
-                      CustomTag(
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 6, vertical: 7),
-                          children: [
-                            Icon(
-                              Icons.visibility,
-                              color: Constants.secondTextColor,
-                              size: 25,
-                            ),
-                            SizedBox(width: 5),
-                            Text(
-                              "100 просм",
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .bodyMedium!
-                                  .copyWith(
-                                      color: Constants.secondTextColor,
-                                      fontWeight: FontWeight.w400),
-                            )
-                          ],
-                          backgroundColor: Colors.grey.shade300),
+                      // CustomTag(
+                      //     padding: const EdgeInsets.symmetric(
+                      //         horizontal: 6, vertical: 7),
+                      //     children: [
+                      //       Icon(
+                      //         Icons.schedule,
+                      //         color: Constants.secondTextColor,
+                      //         size: 25,
+                      //       ),
+                      //       SizedBox(width: 5),
+                      //       Text(
+                      //         "8 часов",
+                      //         style: Theme.of(context)
+                      //             .textTheme
+                      //             .bodyMedium!
+                      //             .copyWith(
+                      //                 color: Constants.secondTextColor,
+                      //                 fontWeight: FontWeight.w400),
+                      //       )
+                      //     ],
+                      //     backgroundColor: Colors.grey.shade300),
+                      // CustomTag(
+                      //     padding: const EdgeInsets.symmetric(
+                      //         horizontal: 6, vertical: 7),
+                      //     children: [
+                      //       Icon(
+                      //         Icons.visibility,
+                      //         color: Constants.secondTextColor,
+                      //         size: 25,
+                      //       ),
+                      //       SizedBox(width: 5),
+                      //       Text(
+                      //         "100 просм",
+                      //         style: Theme.of(context)
+                      //             .textTheme
+                      //             .bodyMedium!
+                      //             .copyWith(
+                      //                 color: Constants.secondTextColor,
+                      //                 fontWeight: FontWeight.w400),
+                      //       )
+                      //     ],
+                      //     backgroundColor: Colors.grey.shade300),
                     ],
                   ),
                   const SizedBox(height: 20),

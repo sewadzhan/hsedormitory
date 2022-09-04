@@ -28,12 +28,56 @@ class GymSchedule extends StatelessWidget {
           ),
         ),
         body: TabBarView(children: [
-          Column(children: [
-            ScheduleItem(),
-            ScheduleItem(),
-            ScheduleItem(),
-          ]),
-          Column(children: [ScheduleItem()]),
+          SingleChildScrollView(
+            child: Column(children: [
+              ScheduleItem(
+                title: "ПОНЕДЕЛЬНИК, 5 сентября",
+              ),
+              ScheduleItem(
+                title: "ВТОРНИК, 6 сентября",
+              ),
+              ScheduleItem(
+                title: "СРЕДА, 7 ентября",
+              ),
+              ScheduleItem(
+                title: "ЧЕТВЕРГ, 8 сентября",
+              ),
+              ScheduleItem(
+                title: "ПЯТНИЦА, 9 сентября",
+              ),
+              ScheduleItem(
+                title: "СУББОТА, 10 сентября",
+              ),
+              ScheduleItem(
+                title: "ВОСКРЕСЕНЬЕ, 11 сентября",
+              ),
+            ]),
+          ),
+          SingleChildScrollView(
+            child: Column(children: [
+              ScheduleItem(
+                title: "ПОНЕДЕЛЬНИК, 5 сентября",
+              ),
+              ScheduleItem(
+                title: "ВТОРНИК, 6 сентября",
+              ),
+              ScheduleItem(
+                title: "СРЕДА, 7 ентября",
+              ),
+              ScheduleItem(
+                title: "ЧЕТВЕРГ, 8 сентября",
+              ),
+              ScheduleItem(
+                title: "ПЯТНИЦА, 9 сентября",
+              ),
+              ScheduleItem(
+                title: "СУББОТА, 10 сентября",
+              ),
+              ScheduleItem(
+                title: "ВОСКРЕСЕНЬЕ, 11 сентября",
+              ),
+            ]),
+          ),
           Column(children: []),
         ]),
       ),
